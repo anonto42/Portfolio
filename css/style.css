@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEFFEC;
+    width: 100%;
+    height: auto;
+}
+/* heading start */
+.navbar-expand-lg .container {
+    max-width: 1685px;
+}
+.navbar .container .navbar-brand img{
+    width: 32px;
+    height: 32px;
+}
+.navbar .container .navbar-toggler img{
+    width: 32px;
+    height: 32px;
+}
+.broder-top-header{
+    border: 1px solid #000000;
+}
+nav .container .navbar-collapse .navbar-nav .nav-item{
+    font-size: 16px;
+    margin: 0 10px;
+}
+.options {
+    cursor: pointer;
+    outline: none;
+}
+#nav-bar ul li{
+    padding: 0 10px;
+}
+
+/* ul li ul.dropdownr li{
+    display: block;
+    margin: 3.5px 0;
+}
+ul li ul.dropdownr{
+    width: 150px;
+    height: 90px;
+    border-radius: 10px;
+    background: #fdffdd;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background: #EEFFEC;
+}
+ul li:hover ul.dropdownr{
+    display: block;
+} */
+/* section st */
+.section1 .btn1{
+    border: 1px solid #000000;
+    padding: 2px 18px;
+    font-size: 18px;
+}
+.section1 .btn1:hover{
+    background-color: #80b7ff;
+    scale: 1.05;
+}
+.section1 .container .my-photo img{
+    width: 341px;
+    height: 412px;
+}
+.section1 .container{
+    display: flex;
+    justify-content: space-between;
+}
+.section1 .container .titel{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.section1 .container .titel h1{
+    font-size: 60px;
+    font-weight: 550;
+}
+.section1 .container .titel p {
+    font-size: 30px;
+    font-weight: 400;
+}
+.section1 .container .my-photo{
+    margin-top: -10px;
+    margin-right: 100px;
+}
+.section1 .container .my-photo img{
+    width: auto;
+}
+/* section 2 */
+.section2 {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* section3 */
+.section3 .container {
+    margin: auto;
+    margin-top: 185px;
+    max-width: 1575px;
+}
+.section3 .container .col {
+    margin: 0 10px;
+}
+.section3 .container .card:hover{
+    transition: all 0.25s ease-in;
+    transform: calc(1.05) ;
+    border: 1px solid #0dcaf01a;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+    scale: 1.10;
+}
+.section3 .container .card a:hover{
+    background-color: #0e76ff;
+    scale: 1.05;
+    border: none;
+}
+.section3 .container .card{
+    padding: 0 0;
+    background-color: #0dcaf01a;
+}
+.section3 .container .card .btn {
+    border: 1px solid black;
+    padding: 2px 20px;
+}
+.section3 .container .card img{
+    height: 220px;
+}
+/* footer */
+
+footer .container-lg{
+    height: 50px;
+    background: #95b69100;
+    max-width: 1703px;
+    margin-top: 70px;
+    padding: 6px 8px;
+    display: flex;
+}
+footer .container-lg img{
+    width: 36px;
+    height: 35px;
+    margin: 0 20px;
+}
+footer .container-lg p {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+footer .container-lg p a {
+    text-decoration: none;
+}
+footer .container-lg p a:hover{
+    scale: 1.5px;
+    color: #1aff00;
+}
+/* footer end */
+@media all and (max-width:980px){
+    .section1 .container .my-photo img {
+        width:300px;
+        height: 300px;
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .section3 .container {
+        display: inline;
+    }
+    .section3 .container .card{
+        margin-top: 150px;
+        width: 300px;
+        height: 450px;
+        margin-left: 300px;
+    }
+    footer .container-lg{
+        margin-top: 250px;
+    }
+}
+@media all and (max-width:780px){
+    .section1 .container{
+        display: inline;
+    }
+    .section1 .container .titel {
+        margin-left: 125px;
+    }
+    .section1 .container .titel h1{
+        font-size: 35px;
+    }
+    .section1 .container .titel p {
+        font-size: 15px;
+    }
+    .section1 .container .titel button {
+        font-size: 10px;
+    }
+    .section1 .container .my-photo img {
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 450px;
+        height: 450px;
+    }
+    .section3{
+        margin-top: 150px;
+    }
+    .section3 .container {
+        display: inline;
+    }
+    .section3 .container .card{
+        margin: 55px 0;
+        width: 300px;
+        margin-left: 100px;
+    }
+}
+@media all and (max-width:560px){
+    .section1 .container .my-photo img {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 450px;
+        height: 450px;
+    }
+}
